@@ -1,0 +1,25 @@
+$slash_color: #fff;
+
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	li {
+		display: inline;
+		font-size: 18px;
+		// a {
+		// 	color: $color_2;
+		// 	text-decoration: none;
+		// 	&:hover {
+		// 		color: $color_3;
+		// 		text-decoration: underline;
+		// 	}
+		// }
+	}
+	li+li {
+		&:before {
+			padding: 8px;
+			color: $slash_color;
+			content: "/\00a0";
+		}
+	}
+}

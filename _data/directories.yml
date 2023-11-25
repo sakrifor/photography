@@ -1,0 +1,15 @@
+- name: Animals 
+  path: animals
+  description: "This is an animal folder"
+
+- name: Forests 
+  path: forests
+  description: "This is an forests folder"
+
+- name: Sea 
+  path: sea
+  description: "This is an sea folder"
+
+- name: Sky 
+  path: sky
+  description: "This is an sky folder"
